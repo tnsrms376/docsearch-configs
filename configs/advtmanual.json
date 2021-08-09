@@ -1,0 +1,14 @@
+{
+  "index_name": "manual_advantapp",
+  "start_urls": [
+  		"http://3.12.198.184:8080/main.html"
+  ],
+  "selectors": {
+    "lvl0": "#inner h1",
+    "lvl1": "#inner h2",
+    "lvl2": "#inner h3, #inner h4",
+    "lvl3": ".summary li",
+    "text": "#inner .text"
+  }
+}
+
