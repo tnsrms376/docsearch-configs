@@ -1,0 +1,17 @@
+{
+  "index_name": "manual_advantapp",
+  "start_urls": [
+  		"https://www.advantapp.com/manual/sfa.html",
+  		"https://www.advantapp.com/aiworks/home/dashboard.html",
+  		"https://www.advantapp.com/aiworks/customer/customer.html"],
+  "selectors": {
+    "lvl0": ".content h1",
+    "lvl1": "#content h2",
+    "lvl2": "#inner h3, #inner h4",
+    "lvl3": ".summary li",
+    "text": "#inner .text"
+  }
+}
+
+
+
