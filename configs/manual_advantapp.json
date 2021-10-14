@@ -1,0 +1,20 @@
+{
+  "index_name": "manual_advantapp",
+  "start_urls": [
+    "https://www.advantapp.com/manual/sfa.html",
+    "https://www.advantapp.com/aiworks/home/dashboard.html",
+    "https://www.advantapp.com/aiworks/customer/customer.html"
+  ],
+  "selectors": {
+    "lvl0": {
+      "selector": ".title h1",
+      "default_value": "Documentation"
+    },
+    "lvl1": ".contents h2",
+    "lvl2": ".contents h3",
+    "lvl3": ".contents h4",
+    "text": ".contents p, .contents li"
+  },
+  "min_indexed_level": 1,
+  "nb_hits": 30
+}
